@@ -39,6 +39,6 @@ steps:
   displayName: 'Publish NuGet package'
   inputs:
     command: push
-    publishVstsFeed: 'Experimentos-Repositorio-Artefactos/pruebas-concepto-epm'
+    publishVstsFeed: 'Experimentos-Repositorio-Artefactos/devops-epm'
     allowPackageConflicts: true
   condition: succeeded()
